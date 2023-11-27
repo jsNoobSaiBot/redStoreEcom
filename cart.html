@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart|Redstore</title>
+    <script
+      src="https://kit.fontawesome.com/82197a4e19.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="favicon.ico"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER-section -->
+    <!-- <div class="maincontainer"> -->
+    <header class="container">
+      <div class="navbar flex">
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" width="125px" />
+        </div>
+        <nav>
+          <ul id="menuitems">
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/products.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="images/cart.png" alt="image" width="30px" height="30px" />
+        <img
+          src="images/menu.png"
+          class="menuicon"
+          alt="image"
+          onclick="menutoggle()"
+        />
+      </div>
+    </header>
+
+    <!-- CART items details -->
+
+    <div class="smallcat cartpage">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cartinfo"><img src="images/buy-1.jpg" alt="" /></div>
+            <div>
+              <p>Red Printed Tshirt</p>
+              <small>Price:$50.00</small>
+              <br />
+              <a href="">Remove</a>
+            </div>
+          </td>
+          
+          <td><input type="number" value="1" /></td>
+          <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>
+              <div class="cartinfo"><img src="images/buy-2.jpg" alt="" /></div>
+              <div>
+                <p>shoes</p>
+                <small>Price:$100.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </td>
+            
+            <td><input type="number" value="1" /></td>
+            <td>$100.00</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="cartinfo"><img src="images/buy-3.jpg" alt="" /></div>
+              <div>
+                <p>Trouser</p>
+                <small>Price:$120.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </td>
+           
+            <td><input type="number" value="1" /></td>
+            <td>$120.00</td>
+          </tr>
+
+      </table>
+      <div class="totalprice">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$200.00</td>
+            </tr>
+            <tr>
+                <td>tax</td>
+                <td>$28.00</td>
+            </tr>
+            <tr>
+                <td>total</td>
+                <td>$228.00</td>
+            </tr>
+        </table>
+      </div>
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row flex">
+            <div class="ftrcl1">
+              <h3>Download our app</h3>
+              <p>Download our app for android and ios mobile phone.</p>
+              <div class="applogo">
+                <img src="images/app-store.png" alt="" />
+                <img src="images/play-store.png" alt="" />
+              </div>
+            </div>
+            <div class="ftrcl2">
+              <img src="images/logo-white.png" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum sapiente tenetur molestiae?
+              </p>
+            </div>
+            <div class="ftrcl3">
+              <h3>useful link</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog post</li>
+                <li>Return policy</li>
+                <li>Join Affilate</li>
+              </ul>
+            </div>
+            <div class="ftrcl4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>youtube</li>
+                <li>instagram</li>
+                <li>github</li>
+                <li>facebook</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="copy">
+        <p>
+          Created by
+          <span
+            ><a href="#"><i class="fab fa-github"></i></a
+          ></span>
+          jsNoobSaiBot
+        </p>
+      </div>
+    </footer>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

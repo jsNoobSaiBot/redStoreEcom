@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All product|Redstore</title>
+    <script src="https://kit.fontawesome.com/82197a4e19.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16" >
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+ <!-- HEADER-section -->
+    <!-- <div class="maincontainer"> -->
+    <header class="container">
+        <div class="navbar flex">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a> </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Contact</a> </li>
+                    <li><a href="#">Acount</a> </li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="image" width="30px" height="30px">
+            <img src="images/menu.png"class="menuicon" alt="image" onclick="menutoggle()">
+        </div>
+       
+    </header>
+<!-- </div> -->
+<!-- Featured categories -->
+    <main>
+        
+<!-- All products -->
+        <div class="smallcat">
+            <div class="row row2">
+                <h2>All products</h2>
+                <select>
+                    <option>Default sort</option>
+                    <option>by Price</option>
+                    <option>by popularity</option>
+                    <option>by size </option>
+                    <option> by ratings</option>
+                 </select>
+                
+             </div>
+            <div class="row flex">
+                <div class="col4">
+                  <a href="http://127.0.0.1:5500/productdetail.html"> <img src="images/product-1.jpg" alt="img"></a> 
+                    <h4>Red Printed Tshirt</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-2.jpg" alt="img">
+                    <h4>Training shoes</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$100.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-3.jpg" alt="img">
+                    <h4>trousers</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-4.jpg" alt="img">
+                    <h4>Blue polo Tshirt</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$80.00</p>
+                </div>
+                
+            </div>
+
+<!-- 
+            Adding more itmes on all product page -->
+
+            <div class="row flex">
+                <div class="col4">
+                    <img src="images/product-1.jpg" alt="img">
+                    <h4>Red Printed Tshirt</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-2.jpg" alt="img">
+                    <h4>Training shoes</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$100.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-3.jpg" alt="img">
+                    <h4>trousers</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-4.jpg" alt="img">
+                    <h4>Blue polo Tshirt</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$80.00</p>
+                </div>
+                
+            </div>
+            <div class="row flex">
+                <div class="col4">
+                    <img src="images/product-1.jpg" alt="img">
+                    <h4>Red Printed Tshirt</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-2.jpg" alt="img">
+                    <h4>Training shoes</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$100.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-3.jpg" alt="img">
+                    <h4>trousers</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col4">
+                    <img src="images/product-4.jpg" alt="img">
+                    <h4>Blue polo Tshirt</h4>
+                    <div class="rating"><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i></div>
+                    <p>$80.00</p>
+                </div>
+                
+            </div>
+
+            <div class="pagebtn">
+
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+       
+        <!-- BRANDS -->
+       
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row flex">
+                    <div class="ftrcl1">
+                        <h3>Download our app</h3>
+                        <p>
+                        Download our app for android and ios mobile phone.
+                        </p>
+                        <div class="applogo">
+                            <img src="images/app-store.png" alt="">
+                            <img src="images/play-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="ftrcl2">
+                        <img src="images/logo-white.png" >
+                        <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sapiente tenetur molestiae?
+                        </p>
+                    </div>
+                    <div class="ftrcl3">
+                        <h3>useful link</h3>
+                      <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return policy</li>
+                        <li>Join Affilate</li>
+                      </ul>
+                    </div>
+                    <div class="ftrcl4">
+                        <h3>Follow us</h3>
+                      <ul>
+                        <li>youtube</li>
+                        <li>instagram</li>
+                        <li>github</li>
+                        <li>facebook</li>
+                      </ul>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copy">
+            <p>Created by <span><a href="#"><i class="fab fa-github"></i></a></span> jsNoobSaiBot</p> 
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
